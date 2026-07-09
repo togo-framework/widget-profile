@@ -1,0 +1,7 @@
+{
+  "name": "@togo-framework/widget-profile",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.tsx",
+  "peerDependencies": { "react": ">=18", "@togo-framework/widget": "^0.1.0" }
+}

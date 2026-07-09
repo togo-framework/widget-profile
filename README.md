@@ -24,6 +24,10 @@ Photo, localized name/role and a rotating quote.
 
 
 
+## Frontend
+
+This widget's **UI** lives in [`web/index.tsx`](web/index.tsx) — the React component the board renders. It imports `@togo-framework/widget` and is registered by this module's `init()`. The Go module embeds `web/` via `go:embed` (`WebAssets`), so the plugin ships both its Go registration and its UI.
+
 MIT
 
 <!-- togo-sponsors -->
