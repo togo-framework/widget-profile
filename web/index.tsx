@@ -2,7 +2,7 @@
 // (mirrors the real profile widget storing translatable copy in site_settings).
 import { registerWidget, type WidgetContext } from "@togo-framework/widget";
 
-function Profile({ settings, setSettings, editing }: WidgetContext) {
+export function Profile({ settings, setSettings, editing }: WidgetContext) {
   const name = (settings.name as string) ?? "Fady Mondy";
   const role = (settings.role as string) ?? "Senior Tech Lead & AI Expert";
 
